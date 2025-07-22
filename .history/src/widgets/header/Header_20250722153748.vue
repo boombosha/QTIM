@@ -1,5 +1,7 @@
 <template>
+  <p>header test</p>
   <header class="header">
-    <h1>HEADER CONTENT</h1>
+    <HeaderLogo />
+    <HeaderNav />
   </header>
 </template>
