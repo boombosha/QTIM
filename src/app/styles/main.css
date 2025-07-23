@@ -18,3 +18,13 @@ h1 {
   font-size: 84px;
   font-weight: 400;
 }
+
+body {
+  margin: 0 auto;
+  font-family: "TTCommons", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--color_text);
+  background-color: var(--color_white);
+}
