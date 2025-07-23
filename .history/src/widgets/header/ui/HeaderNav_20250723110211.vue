@@ -87,6 +87,11 @@
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
+.Header__language-ico {
+  width: 24px;
+  height: 24px;
+}
+
 .Header__cta-link {
   font-family: "TTCommons", sans-serif;
   font-weight: 400;

@@ -5,6 +5,6 @@
 
 <template>
   <header class="header">
-    <HeaderNav />
+    <HeaderLogo />
   </header>
 </template>

@@ -13,8 +13,5 @@ export default defineNuxtConfig({
     dirs: [
       '~/widgets/**/components'
     ]
-  },
-  css: [
-    '@/app/styles/main.css'
-  ]
+  }
 })

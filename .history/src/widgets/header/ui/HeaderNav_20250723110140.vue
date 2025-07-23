@@ -5,10 +5,10 @@
       <nav>
         <ul class="Header__nav">
           <li class="Header__link-item">
-            <NuxtLink class="Header__link" to="/works">Works</NuxtLink>
+            <NuxtLink class="Header__link" to="/works">works</NuxtLink>
           </li>
           <li class="Header__link-item">
-            <NuxtLink class="Header__link" to="/about">About</NuxtLink>
+            <NuxtLink class="Header__link" to="/about">about</NuxtLink>
           </li>
         </ul>
       </nav>
@@ -19,6 +19,7 @@
           <NuxtLink class="Header__cta-link" to="/">Let's work</NuxtLink>
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -85,6 +86,11 @@
   height: 52px;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.Header__language-ico {
+  width: 24px;
+  height: 24px;
 }
 
 .Header__cta-link {
