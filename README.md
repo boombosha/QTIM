@@ -1,4 +1,17 @@
-# Nuxt Minimal Starter
+# Тестовое задание для QTIM.
+
+На сайте реализовано: 
+- верстка шаблона блога по [прикрепленному макету](https://www.figma.com/design/YuLYXnZmLk1U5sKAYjQ0Qy/QTIM)
+- взаимодействие с API
+- вывод списка статей блога
+- пагинация на фронтовой части
+- переход на детальную страницу
+
+Технологии в проекте: Vue 3, Nuxt 3, FSD, Typescript, SCSS, NuxtImg
+
+**Сайт доступен по ссылке** - https://qtim.netlify.app/
+
+## Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -37,39 +50,3 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
