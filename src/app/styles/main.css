@@ -1,8 +1,31 @@
+@import url("./bace.css");
+
 @font-face {
-  font-family: 'TTCommons';
-  src: url('assets/fonts/TTCommons-Regular.ttf') format('ttf');
+  font-family: "TTCommons";
+  src: url("./assets/fonts/TTCommons-Regular.woff2") format("woff2"),
+    url("./assets/fonts/TTCommons-Regular.woff") format("woff"),
+    url("./assets/fonts/TTCommons-Regular.ttf") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "TTCommons";
+  src: url("./assets/fonts/TTCommons-Bold.woff2") format("woff2"),
+    url("./assets/fonts/TTCommons-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "TTCommons";
+  src: url("./assets/fonts/TTCommons-Medium.woff2") format("woff2"),
+    url("./assets/fonts/TTCommons-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
 }
 
 button {
@@ -14,14 +37,26 @@ a {
   color: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   font-size: 84px;
   font-weight: 400;
+  margin-bottom: 59px;
 }
 
 body {
   margin: 0 auto;
-  font-family: "TTCommons", sans-serif;
+  font-family: "TTCommons";
   font-weight: normal;
   font-size: 20px;
   line-height: 100%;
