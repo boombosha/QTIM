@@ -47,16 +47,21 @@
 
 <style lang="scss" scoped>
 .lang_button {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 52px;
   height: 52px;
-  background: #fff;
+  background: var(--color_white);;
   align-items: center;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
 
   img {
     width: 24px;

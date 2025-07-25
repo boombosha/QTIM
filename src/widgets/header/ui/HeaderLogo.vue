@@ -12,3 +12,9 @@
     </svg>
   </NuxtLink>
 </template>
+
+<style lang="scss" scoped>
+svg {
+  margin-left: 40px;
+}
+</style>
